@@ -81,24 +81,37 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#0B0D32',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
   },
   welcomeContainer: {
-    padding: 12,
-
     flex: 1,
+    justifyContent: 'center',
     alignItems: 'center',
   },
   message: {
-    fontSize: 26,
-    fontWeight: '500',
+    fontSize: 32,
+    fontWeight: '600',
     color: '#FFFFFF',
+    textAlign: 'center',
+    marginBottom: 20,
   },
   userContainer: {
-    marginTop: 24,
+    marginTop: 20,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    backgroundColor: '#1E213F',
+    borderRadius: 10,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   userDetails: {
-    fontSize: 20,
+    fontSize: 24,
+    fontWeight: '500',
     color: '#FFFFFF',
+    textAlign: 'center',
   },
 });
 
