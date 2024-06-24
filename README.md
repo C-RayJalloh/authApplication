@@ -1,5 +1,17 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# Application preview - SCREENSHOTS
+![Screenshot 1](./Screenshots/SsLoginPage.png)
+This is a screenshot of the application's Login Screen.
+
+![Screenshot 1](./Screenshots/SsSignupPage.png)
+This is a screenshot of the application's Sign Up Screen.
+
+![Screenshot 1](./Screenshots/SsHomePage.png)
+This is a screenshot of the application's Home Screen.
+
+
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
