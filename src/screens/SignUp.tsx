@@ -66,7 +66,7 @@ const SignUp = ({navigation}: signUpScreenProps) => {
     behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     style={styles.container}>
     <View style={styles.formContainer}>
-      <Text style={styles.appName}>Appwrite Auth</Text>
+      <Text style={styles.appName}>AuthApp</Text>
 
       {/* Name */}
       <TextInput
