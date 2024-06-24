@@ -66,7 +66,7 @@ const SignUp = ({navigation}: signUpScreenProps) => {
     behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     style={styles.container}>
     <View style={styles.formContainer}>
-      <Text style={styles.appName}>AuthApp</Text>
+      <Text style={styles.appName}>Let's go</Text>
 
       {/* Name */}
       <TextInput
@@ -146,11 +146,12 @@ const SignUp = ({navigation}: signUpScreenProps) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#F5F5F5',
+    padding: 20,
   },
   formContainer: {
     justifyContent: 'center',
-    alignContent: 'center',
+    alignItems: 'center',
     height: '100%',
   },
   appName: {
@@ -158,73 +159,75 @@ const styles = StyleSheet.create({
     fontSize: 40,
     fontWeight: 'bold',
     alignSelf: 'center',
-    marginBottom: 20,
+    marginBottom: 40,
   },
   input: {
     backgroundColor: '#fef8fa',
-    padding: 10,
-    height: 40,
+    padding: 15,
+    height: 50,
     alignSelf: 'center',
-    borderRadius: 5,
-
-    width: '80%',
+    borderRadius: 10,
+    width: '90%',
     color: '#000000',
-
-    marginTop: 10,
+    marginTop: 15,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 4,
     },
-    shadowOpacity: 0.23,
-    shadowRadius: 2.62,
-
-    elevation: 1,
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 5,
+    borderWidth: 1,
+    borderColor: '#DDDDDD',
   },
   errorText: {
-    color: 'red',
+    color: '#FF0000',
     alignSelf: 'center',
     marginTop: 10,
   },
   btn: {
-    backgroundColor: '#ffffff',
-    padding: 10,
-    height: 45,
-
+    backgroundColor: '#f02e65',
+    padding: 15,
+    height: 50,
     alignSelf: 'center',
-    borderRadius: 5,
-    width: '80%',
-    marginTop: 10,
-
+    borderRadius: 10,
+    width: '90%',
+    marginTop: 20,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 4,
     },
-    shadowOpacity: 0.23,
-    shadowRadius: 2.62,
-
-    elevation: 3,
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 5,
   },
   btnText: {
-    color: '#484848',
+    color: '#FFFFFF',
     alignSelf: 'center',
     fontWeight: 'bold',
     fontSize: 18,
   },
   loginContainer: {
-    marginTop: 60,
+    marginTop: 50,
+    alignItems: 'center',
   },
   haveAccountLabel: {
     color: '#484848',
-    alignSelf: 'center',
     fontWeight: 'bold',
     fontSize: 15,
   },
   loginLabel: {
     color: '#1d9bf0',
+    fontWeight: 'bold',
+    marginTop: 5,
+    fontSize: 16,
   },
 });
+
+
+
 
 
 
