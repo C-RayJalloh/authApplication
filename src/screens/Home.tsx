@@ -60,7 +60,7 @@ const Home = () => {
         </Text>
         {user && (
           <View style={styles.userContainer}>
-            <Text style={styles.userDetails}>Name: {user.name}</Text>
+            <Text style={styles.userDetails}>Username: {user.name}</Text>
             <Text style={styles.userDetails}>Email: {user.email}</Text>
           </View>
         )}
