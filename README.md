@@ -4,10 +4,10 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 ![Screenshot 1](./Screenshots/SsLoginPage.png)
 This is a screenshot of the application's Login Screen.
 
-![Screenshot 1](./Screenshots/SsSignupPage.png)
+![Screenshot 2](./Screenshots/SsSignupPage.png)
 This is a screenshot of the application's Sign Up Screen.
 
-![Screenshot 1](./Screenshots/SsHomePage.png)
+![Screenshot 3](./Screenshots/SsHomePage.png)
 This is a screenshot of the application's Home Screen.
 
 
